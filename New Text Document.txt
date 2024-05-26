@@ -1,0 +1,170 @@
+328 INFO: PyInstaller: 5.13.0
+328 INFO: Python: 3.11.5
+328 INFO: Platform: Windows-10-10.0.22631-SP0
+343 INFO: Extending PYTHONPATH with paths
+['G:\\Django\\Practical Projects\\CRM Application ( FreeCodeCamp )\\dcrm',
+ 'G:\\Django\\Practical Projects\\CRM Application ( FreeCodeCamp )\\dcrm\\dcrm']
+609 INFO: Appending 'datas' from .spec
+609 INFO: checking Analysis
+624 INFO: Building Analysis because Analysis-00.toc is non existent
+624 INFO: Initializing module dependency graph...
+624 INFO: Caching module graph hooks...
+640 INFO: Analyzing base_library.zip ...
+2171 INFO: Loading module hook 'hook-heapq.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+2249 INFO: Loading module hook 'hook-encodings.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+3764 INFO: Loading module hook 'hook-pickle.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+5108 INFO: Caching module dependency graph...
+5264 INFO: running Analysis Analysis-00.toc
+5280 INFO: Adding Microsoft.Windows.Common-Controls to dependent assemblies of final executable
+  required by C:\Users\Jesus\AppData\Local\Programs\Python\Python311\python.exe
+5311 INFO: Analyzing G:\Django\Practical Projects\CRM Application ( FreeCodeCamp )\dcrm\manage.py
+5326 INFO: Loading module hook 'hook-django.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+437 WARNING: Failed to collect submodules for 'django.contrib.postgres.forms' because importing 'django.contrib.postgres.forms' raised: ModuleNotFoundError: No module named 'psycopg2'
+9997 INFO: Determining a mapping of distributions to packages...
+12871 INFO: Packages required by django:
+['asgiref', 'sqlparse', 'tzdata']
+12871 INFO: Django root directory G:\Django\Practical Projects\CRM Application ( FreeCodeCamp )\dcrm\dcrm
+27275 INFO: Collecting Django migration scripts.
+27837 INFO: Loading module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+27931 INFO: Loading module hook 'hook-xml.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+28681 INFO: Loading module hook 'hook-zoneinfo.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks'...
+28696 INFO: Loading module hook 'hook-sysconfig.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+29102 INFO: Loading module hook 'hook-platform.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+29274 INFO: Loading module hook 'hook-jinja2.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks'...
+29790 INFO: Loading module hook 'hook-django.core.cache.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+30430 INFO: Loading module hook 'hook-django.core.mail.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+30477 INFO: Loading module hook 'hook-django.core.management.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+31071 INFO: Loading module hook 'hook-difflib.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+31289 INFO: Loading module hook 'hook-django.db.backends.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+32320 INFO: Loading module hook 'hook-PIL.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+32383 INFO: Loading module hook 'hook-PIL.Image.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+32836 INFO: Loading module hook 'hook-pycparser.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks'...
+33273 INFO: Processing pre-safe import module hook distutils from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module\\hook-distutils.py'.
+33273 INFO: Processing pre-find module path hook distutils from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path\\hook-distutils.py'.
+33476 INFO: Loading module hook 'hook-distutils.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+33523 INFO: Loading module hook 'hook-distutils.util.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+33648 INFO: Loading module hook 'hook-setuptools.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+34945 INFO: Loading module hook 'hook-packaging.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+35429 INFO: Loading module hook 'hook-pkg_resources.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+37116 INFO: Loading module hook 'hook-PIL.ImageFilter.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+37397 INFO: Processing module hooks...
+38225 INFO: Loading module hook 'hook-xml.dom.domreg.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+38631 INFO: Loading module hook 'hook-django.db.backends.mysql.base.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+38756 INFO: Loading module hook 'hook-django.db.backends.oracle.base.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+38881 INFO: Loading module hook 'hook-sqlite3.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+39303 WARNING: Hidden import "django.db.backends.__pycache__.base" not found!
+41662 INFO: Loading module hook 'hook-django.contrib.sessions.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+42349 INFO: Loading module hook 'hook-django.template.loaders.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+42927 WARNING: Hidden import "website.apps.WebsiteConfig" not found!
+42927 WARNING: Hidden import "b" not found!
+42927 WARNING: Hidden import "m" not found!
+42927 WARNING: Hidden import "django.contrib.contenttypes.context_processors" not found!
+42927 WARNING: Hidden import "django.contrib.staticfiles.context_processors" not found!
+42927 WARNING: Hidden import "e" not found!
+42927 WARNING: Hidden import "c" not found!
+42927 WARNING: Hidden import "a" not found!
+42927 WARNING: Hidden import "p" not found!
+42927 WARNING: Hidden import "django.contrib.admin.context_processors" not found!
+42943 WARNING: Hidden import "django.contrib.messages.templatetags" not found!
+42943 WARNING: Hidden import "g" not found!
+42943 WARNING: Hidden import "s" not found!
+42943 WARNING: Hidden import "d" not found!
+42943 WARNING: Hidden import "django.contrib.sessions.templatetags" not found!
+42959 WARNING: Hidden import "django.contrib.staticfiles.templatetags" not found!
+42959 WARNING: Hidden import "django.contrib.auth.templatetags" not found!
+42959 WARNING: Hidden import "o" not found!
+42959 WARNING: Hidden import "n" not found!
+42959 WARNING: Hidden import "j" not found!
+42959 WARNING: Hidden import "l" not found!
+42959 WARNING: Hidden import "t" not found!
+42959 WARNING: Hidden import "k" not found!
+42959 WARNING: Hidden import "." not found!
+42959 WARNING: Hidden import "website.apps.WebsiteConfig.context_processors" not found!
+42959 WARNING: Hidden import "django.contrib.contenttypes.templatetags" not found!
+42959 WARNING: Hidden import "website.apps.WebsiteConfig.templatetags" not found!
+42959 WARNING: Hidden import "django.contrib.sessions.context_processors" not found!
+43162 INFO: Loading module hook 'hook-PIL.SpiderImagePlugin.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+43583 INFO: Loading module hook 'hook-setuptools.msvc.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+44271 INFO: Loading module hook 'hook-tzdata.py' from 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks'...
+45052 WARNING: Hidden import "django.db.backends.oracle.compiler" not found!
+45177 INFO: Looking for ctypes DLLs
+45302 INFO: Analyzing run-time hooks ...
+45317 INFO: Including run-time hook 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py'
+45317 INFO: Including run-time hook 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py'
+45317 INFO: Including run-time hook 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py'
+45317 INFO: Including run-time hook 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py'
+45317 INFO: Including run-time hook 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_django.py'
+45333 INFO: Including run-time hook 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py'
+45458 INFO: Looking for dynamic libraries
+624 INFO: Extra DLL search directories (AddDllDirectory): []
+624 INFO: Extra DLL search directories (PATH): ['C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\', 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\', 'C:\\WINDOWS\\system32', 'C:\\WINDOWS', 'C:\\WINDOWS\\System32\\Wbem', 'C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\', 'C:\\WINDOWS\\System32\\OpenSSH\\', 'C:\\Program Files\\nodejs\\', 'C:\\ProgramData\\chocolatey\\bin', 'C:\\Users\\Jesus\\AppData\\Local\\Microsoft\\WindowsApps', 'C:\\Users\\Jesus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin', 'C:\\Users\\Jesus\\AppData\\Roaming\\npm']
+46427 INFO: Looking for eggs
+46473 INFO: Using Python library C:\Users\Jesus\AppData\Local\Programs\Python\Python311\python311.dll
+46473 INFO: Found binding redirects:
+[]
+46489 INFO: Warnings written to G:\Django\Practical Projects\CRM Application ( FreeCodeCamp )\dcrm\build\manage\warn-manage.txt
+46630 INFO: Graph cross-reference written to G:\Django\Practical Projects\CRM Application ( FreeCodeCamp )\dcrm\build\manage\xref-manage.html
+46973 INFO: checking PYZ
+46973 INFO: Building PYZ because PYZ-00.toc is non existent
+46973 INFO: Building PYZ (ZlibArchive) G:\Django\Practical Projects\CRM Application ( FreeCodeCamp )\dcrm\build\manage\PYZ-00.pyz
+48410 INFO: Building PYZ (ZlibArchive) G:\Django\Practical Projects\CRM Application ( FreeCodeCamp )\dcrm\build\manage\PYZ-00.pyz completed successfully.
+48473 INFO: checking PKG
+48473 INFO: Building PKG because PKG-00.toc is non existent
+48473 INFO: Building PKG (CArchive) CRM Application.pkg
+48629 INFO: Building PKG (CArchive) CRM Application.pkg completed successfully.
+48629 INFO: Bootloader C:\Users\Jesus\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+48629 INFO: checking EXE
+48629 INFO: Building EXE because EXE-00.toc is non existent
+48629 INFO: Building EXE from EXE-00.toc
+48629 INFO: Copying bootloader EXE to G:\Django\Practical Projects\CRM Application ( FreeCodeCamp )\dcrm\build\manage\CRM Application.exe.notanexecutable
+48723 INFO: Copying icon to EXE
+48723 INFO: Copying icons from ['C:\\Users\\Jesus\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-windowed.ico']
+48723 INFO: Writing RT_GROUP_ICON 0 resource with 104 bytes
+48723 INFO: Writing RT_ICON 1 resource with 3752 bytes
+48723 INFO: Writing RT_ICON 2 resource with 2216 bytes
+48723 INFO: Writing RT_ICON 3 resource with 1384 bytes
+48723 INFO: Writing RT_ICON 4 resource with 38188 bytes
+48723 INFO: Writing RT_ICON 5 resource with 9640 bytes
+48723 INFO: Writing RT_ICON 6 resource with 4264 bytes
+48723 INFO: Writing RT_ICON 7 resource with 1128 bytes
+48770 INFO: Copying 0 resources to EXE
+48770 INFO: Embedding manifest in EXE
+48770 INFO: Updating manifest in G:\Django\Practical Projects\CRM Application ( FreeCodeCamp )\dcrm\build\manage\CRM Application.exe.notanexecutable
+48770 INFO: Updating resource type 24 name 1 language 0
+48832 INFO: Appending PKG archive to EXE
+60689 INFO: Fixing EXE headers
+61157 INFO: Building EXE from EXE-00.toc completed successfully.
+61204 INFO: checking COLLECT
+61204 INFO: Building COLLECT because COLLECT-00.toc is non existent
+61204 INFO: Building COLLECT COLLECT-00.toc
+155463 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "manage.py", line 22, in <module>
+  File "manage.py", line 18, in main
+  File "django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "django\core\management\__init__.py", line 416, in execute
+    django.setup()
+  File "django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "django\apps\config.py", line 178, in create
+    mod = import_module(mod_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "importlib\__init__.py", line 126, in import_module
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1126, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'website'

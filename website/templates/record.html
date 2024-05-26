@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block content %} 
+
+<div class="card">
+    <div class="card-header">
+        <div class="row g-1">
+            <h2 class="col col-6 text-center"><strong>Name: </strong><span class="text-primary">{{ record_details }}</span></h2>
+            <h2 class="col col-6 text-center"><strong>ID: </strong><span class="text-primary">{{ record_details.id }}</span></h2>
+        </div>
+    </div>
+    <div class="card-body">
+        <p>
+            <strong>Email: </strong>{{ record_details.email }}
+            <br>
+            <strong>Phone: </strong>{{ record_details.phone }}
+            <br>
+            <strong>Address: </strong>{{ record_details.address }}
+            <br>
+            <strong>City: </strong>{{ record_details.city }}
+            <br>
+            <strong>State: </strong>{{ record_details.state }}
+            <br>
+            <strong>Zipcode: </strong>{{ record_details.zipcode }}
+            <br>
+            <strong>Created_at: </strong>{{ record_details.created_at }}
+            <br>
+        </p>
+    </div>
+</div>
+<br>
+<br>
+
+<div class="row g-1 gap-2">
+    <a href="{% url 'Home' %}" class="btn btn-secondary col col-3 text-center">Back</a>
+    <a href="{% url 'update' record_details.id %}" class="btn btn-primary col col-4 ml-2 text-center">Update</a>
+    <a href="{% url 'delete' record_details.id %}" class="btn btn-danger col col-4 ml-2 text-center">Delete</a>
+
+</div>
+
+{% endblock %}

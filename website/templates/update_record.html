@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content %} 
+
+<div class="col-md-6 offset-md-3">
+    <form method="post">
+        {% csrf_token %}
+
+        
+    <div class="row gap-5">
+        <div class="col col-6"> {{ form.first_name }} </div>
+        <div class="col col-5 text-left"> {{ form.last_name }}  </div>
+    </div> <br>
+    {{ form.email }} <br>
+    {{ form.phone }} <br>
+    {{ form.address }} <br>
+    <div class="row gap-4">
+
+        <div class="col col-4">  {{ form.city }}  </div>
+        <div class="col col-3">  {{ form.state }} </div>
+        <div class="col col-4">{{ form.zipcode }} </div> 
+
+    </div>
+
+    <br>
+    <button type="submit" class="btn btn-primary">Update Record</button>
+
+    </form>
+      
+</div>
+
+{% endblock %}

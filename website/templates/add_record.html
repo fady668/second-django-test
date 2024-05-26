@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block content %} 
+
+<div class="col-md-6 offset-md-3">
+    <h1>Add Record</h1>
+    <br>
+    <form method="post" action="" class="form">
+        {% csrf_token %}
+        {% if from.errors %}
+        <div id="myAlert" class="alert alert-warning alert-dismissible fade show" role="alert"></div>
+            Your Form Has Errors
+            {% for x in form %}
+                {% if x.errors %}
+                    {{ x.errors }}
+                {% endif %}
+            {% endfor %}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        {% else %}
+            <div class="row gap-5">
+                <div class="col col-6"> {{ form.first_name }} </div>
+                <div class="col col-5 text-left"> {{ form.last_name }}  </div>
+            </div> <br>
+            {{ form.email }} <br>
+            {{ form.phone }} <br>
+            {{ form.address }} <br>
+            <div class="row gap-4">
+
+                <div class="col col-4">  {{ form.city }}  </div>
+                <div class="col col-3">  {{ form.state }} </div>
+                <div class="col col-4">{{ form.zipcode }} </div> 
+
+            </div> <br>
+        {% endif %}
+        <br>
+        <button type="submit" class="btn btn-primary">Add Record</button>
+    </form>
+</div>
+
+{% endblock %}
