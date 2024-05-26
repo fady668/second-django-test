@@ -33,7 +33,7 @@ def logout_user(request):
     return redirect('Home')
 
 # Register Page
-def Register_user(request):
+def register_user(request):
     if request.method == 'POST':
         form = SignUpForm(request.POST)
         if form.is_valid():
@@ -47,7 +47,7 @@ def Register_user(request):
     else :
         form = SignUpForm()
     
-    return render(request, 'Register.html', {'form':form})
+    return render(request, 'register.html', {'form':form})
     
 # Show Records
 def record(request, pk):
